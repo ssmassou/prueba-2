@@ -1,0 +1,203 @@
+:root {
+  --color-general: #686868;
+  --color-titulos: #303030;
+  --color-hover-menu: #fe8f01;
+  --fondo-header: #202020;
+  --fondo-footer: #353330;
+  --letra-footer: #777;
+  --background-secondary: #f8f8f8
+}
+
+h2, h3, h4, h5, h6, .section-title {
+	font-family: 'Alegreya', serif; 
+	color: var(--color-titulos);
+	margin-bottom: 1.5rem;
+  }
+
+
+body {
+  font-family: "Alegreya sans", serif;
+  font-size: 17px;
+  color: #666;
+}
+
+header {
+  background-color: var(--fondo-header);
+}
+footer {
+  background-color: var(--fondo-footer);
+  padding: 15px 0;
+  color: var(--letra-footer);
+  text-align: center;
+}
+footer img {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+/* Hero */
+
+.hero {
+  background: url("../img/hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  margin-bottom: 15px;
+}
+.hero p {
+  font-size: 1.5rem;
+}
+
+.hero .btn-primary {
+  background-color: #a78d67;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn-primary:hover {
+  background-color: var(--color-hover-menu);
+  color: white;
+}
+
+.hero .btn-outline-secondary {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero .btn-outline-secondary:hover {
+  background-color: var(--color-hover-menu);
+  color: white;
+}
+
+/* Sección Who We Are */
+.who-we-are {
+	background-color: var(--background-secondary);
+  }
+  
+  .image-wrapper img {
+	width: 75%;
+	height: auto;
+	margin: 50px;
+  }
+  
+  .text-wrapper {
+	padding: 20px 40px;
+  }
+  
+  .section-title {
+	font-size: 2rem;
+	color: var(--color-titulos);
+	margin-bottom: 20px;
+  }
+  
+  .description {
+	font-size: 1rem;
+	color: var(--color-general);
+	margin-bottom: 20px;
+	line-height: 1.6;
+  }
+  
+  .features-list {
+	list-style: none;
+	padding: 0;
+  }
+  
+  .features-list li {
+	font-size: 1rem;
+	color: var(--color-general);
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+  }
+  
+  .icon-circle {
+	background-color: white; 
+	color: #917a57;
+	border: 0.5px solid #cecccc;
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 15px;
+  }
+  
+  .icon-circle i {
+	font-size: 1.2rem;
+  }
+
+/* Location Section */
+
+.location {
+	background-color: var(--background-secondary);
+}
+
+
+
+
+
+
+
+/* Baking Section */
+.baking {
+  background-color: var(--color-bg-light);
+  padding: 3rem 0;
+ 
+}
+
+.baking h2 {
+	text-align: center;
+}
+
+.baking p {
+	text-align: center;
+}
+
+.baking h5 {
+	text-align: center;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.card-img-top {
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-family: "Alegreya", serif;
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--color-secondary);
+  font-size: 1rem;
+}
